@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+}
+.wallpaper {
+    background-image:url(../img/wallpaper.jpg);
+    background-size: cover;
+}
+header {
+    font-family: 'Lobster' , cursive;
+    background-color: rgb(182, 23, 23);
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 50px;
+    margin: -15px;
+}
+nav {
+    position: sticky;
+    background-color: rgb(182, 23, 23, .8);
+    top: 0;
+    margin: -15px;
+}
+nav ul {
+    text-align: center;
+    border: 1px solid black;
+    padding: 7px;
+}
+nav a{
+    display: inline;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 7px;
+    margin: 10px;
+}
+nav a:hover {
+    padding: 7px;
+    background-color: rgb(221, 124, 124);
+}
+aside {
+    position: sticky;
+    width: 20%;
+    text-align: center;
+    background: white;
+    border: 2px solid black;
+    float: right;
+    top: 40px;
+    padding: 5px;
+}
+aside h2 {
+    font-size: 30px;
+    border: 2px dashed black;
+    background: white;
+}
+aside li {
+    list-style: none;    
+    border: 2px solid black;
+    padding: 5px;
+    margin: 2px 5px 0 -25px;
+}
+article {
+    width: 55%;
+    background-color: white;
+    margin: 30px auto;
+    padding: 15px;
+}
+article h1 {
+    background: rgb(182, 23, 23);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px auto;
+}
+article p {
+    line-height: 5,5px;
+}
+time {
+    margin: 20px;
+}
+.img {
+    max-width: 400px;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+footer {
+    display: flex;
+    background-color: rgb(231, 210, 210);
+    color: black;
+    font-size: 18px;
+    padding: 60px;
+    margin: -15px;
+}
+footer h4 {
+    margin: -20px 5px 0px 10px ;
+}
